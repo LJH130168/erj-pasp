@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ERJ密码服务用户指南</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+    <link rel="icon" href="/erj-pasp/assets/favicon.ico">
+    <meta name="description" content="十分钟了解密码服务基本构成">
+    
+    <link rel="preload" href="/erj-pasp/assets/css/0.styles.a4dc84d4.css" as="style"><link rel="preload" href="/erj-pasp/assets/js/app.562cfd09.js" as="script"><link rel="preload" href="/erj-pasp/assets/js/2.9e7800f0.js" as="script"><link rel="preload" href="/erj-pasp/assets/js/7.6a505080.js" as="script"><link rel="prefetch" href="/erj-pasp/assets/js/10.8f04e40e.js"><link rel="prefetch" href="/erj-pasp/assets/js/11.b3d34123.js"><link rel="prefetch" href="/erj-pasp/assets/js/3.6b776068.js"><link rel="prefetch" href="/erj-pasp/assets/js/4.1b1fb3cd.js"><link rel="prefetch" href="/erj-pasp/assets/js/5.54b9fab1.js"><link rel="prefetch" href="/erj-pasp/assets/js/6.e746351e.js"><link rel="prefetch" href="/erj-pasp/assets/js/8.9aae1ce3.js"><link rel="prefetch" href="/erj-pasp/assets/js/9.8e8ffecb.js">
+    <link rel="stylesheet" href="/erj-pasp/assets/css/0.styles.a4dc84d4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/erj-pasp/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">ERJ密码服务用户指南</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/erj-pasp/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  首页
+</a></div><div class="nav-item"><a href="/erj-pasp/category/" class="nav-link">
+  用户指南
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/erj-pasp/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  首页
+</a></div><div class="nav-item"><a href="/erj-pasp/category/" class="nav-link">
+  用户指南
+</a></div> <!----></nav>  <!----> </aside> <main aria-labelledby="main-title" class="home"><header class="hero"><!----> <h1 id="main-title">
+      ERJ密码服务用户指南
+    </h1> <p class="description">
+      十分钟了解密码服务基本构成
+    </p> <p class="action"><a href="/erj-pasp/category/" class="nav-link action-button">
+  用户指南 →
+</a></p></header> <div class="features"><div class="feature"><h2>简介</h2> <p>密码应用服务管理平台着力于密码技术的研发和集成。【支持功能】：系统管理、租户管理、应用管理、APi管理、版本管理、计费管理、服务管理、财务管理、设备管理、预警管理、监控管理、密钥管理、密码管理、日志管理、统计报表。【支持API】：【对称算法】SM1数据加解密、AES数据加解密、DES数据加解密、DESEDE数据加解密、SM4数据加解密、SM4文件加解密；【非对称算法】RSA数据加解密、SM2数据加解密、RSA签名验签、SM2签名验签；【杂凑算法】SM3数据hash。持续性专注于密码服务。</p></div><div class="feature"><h2>密码应用服务管理平台</h2> <p>密码应用服务管理平台支持多家厂商的加密机（目前支持渔翁和得安，后期再不断扩展中）。注册该平台的用户，可以创建属于自己的应用（支持多个），每个应用可以选择性对接指定厂商的密码机，对接成功后平台会为该应用生成密钥和令牌（api入参使用）。核心模块：密钥管理、以及密钥对管理，用户可以实时创建属于自己的密钥和密钥对，管理其生命周期。通过生成的密钥和密钥对作为具体算法api的入参。</p></div><div class="feature"><h2>密码应用API平台</h2> <p>密码应用API平台是转为用户提供的一个人性化api调试平台。用户可以对自己已购买的api进行实时调式，同时还支持个人api的调式。平台内部为每个api提供了文档说明，以及调式界面，用户可以通过该平台来对接自己的系统。用户点击头像可查看自己的基本信息，此外提供了一个灵活小工具-统用调式界面。</p></div></div> <div class="theme-default-content custom content__default"></div> <div class="footer">
+    Copyright© 2011-2022 重庆融景科技有限公司 版权所有
+  </div></main></div><div class="global-ui"></div></div>
+    <script src="/erj-pasp/assets/js/app.562cfd09.js" defer></script><script src="/erj-pasp/assets/js/2.9e7800f0.js" defer></script><script src="/erj-pasp/assets/js/7.6a505080.js" defer></script>
+  </body>
+</html>
